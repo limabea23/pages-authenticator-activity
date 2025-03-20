@@ -7,8 +7,7 @@ export default function Home() {
     const router = useRouter();
 
     useEffect(() => {
-        router.push("/signin");
-        //nome da minha pastsa no push
+        router.push("/signup");
     }, [router]);
 
     return (
